@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "arcane",
+	"version": "${version}",
+	"name": "Arcane Gearsets",
+	"description": "Adds more levels of armor after diamond to add variety to gameplay!",
+	"authors": [
+		"Maceface"
+	],
+	"contact": {
+		"homepage": "https://legacy.curseforge.com/members/maceface823m/projects",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "ARR",
+	"icon": "assets/arcane/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.maceface.arcanegearsets.ArcaneGearsets"
+		],
+		"fabric-datagen": [
+			"net.maceface.arcanegearsets.ArcaneGearsetsDataGenerator"
+		],
+		"client": [
+			"net.maceface.arcanegearsets.ArcaneGearsetsClient"
+		]
+	},
+	"mixins": [
+		"arcane.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
