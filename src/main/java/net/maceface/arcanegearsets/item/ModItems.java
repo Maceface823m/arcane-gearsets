@@ -14,7 +14,8 @@ import java.util.List;
 
 public class ModItems {
 
-    public static final Item PRISMARINE_UPGRADE_TEMPLATE = registerItem("prismarine_upgrade_template", new Item(new Item.Settings()));
+    public static final Item PRISMARINE_UPGRADE_TEMPLATE = registerItem("prismarine_upgrade_template", SmithingTemplateItem.createNetheriteUpgrade());
+    //public static final Item PRISMARINE_UPGRADE_TEMPLATE = registerItem("prismarine_upgrade_template", new Item(new Item.Settings()));
             //new SmithingTemplateItem(
                     //Text.translatable("upgrade.yourmodid.prismarine_upgrade"), // Title
                     //Text.translatable("upgrade.yourmodid.prismarine_upgrade_applies_to"), // Applies to
