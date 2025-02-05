@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:diamond_helmet"
+  },
+  "addition": {
+    "item": "minecraft:heart_of_the_sea"
+  },
+  "result": {
+    "item": "arcane:prismarine_helmet"
+  },
+  "recipe_category": "misc",
+  "ingredients": [
+    {
+      "item": "arcane:prismarine_smithing_template"
+    }
+  ]
+
+}

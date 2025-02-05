@@ -12,9 +12,7 @@ public class ModTags {
     public static class Blocks {
         public static class Block {
 
-            private static TagKey<Block> createTag(String name) {
-            return TagKey.of(RegistryKeys.BLOCK, Identifier.of(ArcaneGearsets.MOD_ID, name));
-            }
+
         }
     }
 
