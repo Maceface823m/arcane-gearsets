@@ -4,14 +4,14 @@
     "item": "minecraft:heart_of_the_sea"
   },
   "base": {
-    "item": "minecraft:diamond_chestplate"
+    "item": "minecraft:diamond_leggings"
   },
   "result": {
     "count": 1,
-    "id": "arcane:prismarine_chestplate"
+    "id": "arcane:tidal_leggings"
   },
   "template": {
-      "item": "arcane:prismarine_upgrade_template"
+      "item": "arcane:aquatic_upgrade_template"
     }
 
 }

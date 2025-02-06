@@ -3,6 +3,10 @@
     "arcane:tidal_helmet",
     "arcane:tidal_chestplate",
     "arcane:tidal_leggings",
-    "arcane:tidal_boots"
+    "arcane:tidal_boots",
+    "arcane:wave_breaker_helmet",
+    "arcane:wave_breaker_chestplate",
+    "arcane:wave_breaker_leggings",
+    "arcane:wave_breaker_boots"
   ]
 }

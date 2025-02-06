@@ -26,5 +26,10 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.TIDAL_CHESTPLATE));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.TIDAL_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.TIDAL_BOOTS));
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.WAVE_BREAKER_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.WAVE_BREAKER_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.WAVE_BREAKER_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.WAVE_BREAKER_BOOTS));
     }
 }

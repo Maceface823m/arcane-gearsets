@@ -34,6 +34,23 @@ public class ModItems {
                     .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(37))));
 
 
+    public static final Item WAVE_BREAKER_HELMET = registerItem("wave_breaker_helmet",
+            new ModArmorItem(ModArmorMaterials.TIDAL_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(37))));
+
+    public static final Item WAVE_BREAKER_CHESTPLATE = registerItem("wave_breaker_chestplate",
+            new ArmorItem(ModArmorMaterials.TIDAL_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(37))));
+
+    public static final Item WAVE_BREAKER_LEGGINGS = registerItem("wave_breaker_leggings",
+            new ArmorItem(ModArmorMaterials.TIDAL_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(37))));
+
+    public static final Item WAVE_BREAKER_BOOTS = registerItem("wave_breaker_boots",
+            new ArmorItem(ModArmorMaterials.TIDAL_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(37))));
+
+
 
 
 
@@ -49,11 +66,16 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(AQUATIC_UPGRADE_TEMPLATE);
         });
+
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(fabricItemGroupEntries -> {
-            fabricItemGroupEntries.add(TIDAL_HELMET);
-            fabricItemGroupEntries.add(TIDAL_CHESTPLATE);
-            fabricItemGroupEntries.add(TIDAL_LEGGINGS);
             fabricItemGroupEntries.add(TIDAL_BOOTS);
+            fabricItemGroupEntries.add(TIDAL_LEGGINGS);
+            fabricItemGroupEntries.add(TIDAL_CHESTPLATE);
+            fabricItemGroupEntries.add(TIDAL_HELMET);
+            fabricItemGroupEntries.add(WAVE_BREAKER_BOOTS);
+            fabricItemGroupEntries.add(WAVE_BREAKER_LEGGINGS);
+            fabricItemGroupEntries.add(WAVE_BREAKER_CHESTPLATE);
+            fabricItemGroupEntries.add(WAVE_BREAKER_HELMET);
         });
     }
 

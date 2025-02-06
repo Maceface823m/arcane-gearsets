@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "arcane:item/wave_breaker_chestplate",
+    "layer1": "minecraft:trims/items/chestplate_trim_amethyst"
+  }
+}

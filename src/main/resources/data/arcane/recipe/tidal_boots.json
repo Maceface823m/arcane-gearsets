@@ -4,14 +4,14 @@
     "item": "minecraft:heart_of_the_sea"
   },
   "base": {
-    "item": "minecraft:diamond_helmet"
+    "item": "minecraft:diamond_boots"
   },
   "result": {
     "count": 1,
-    "id": "arcane:prismarine_helmet"
+    "id": "arcane:tidal_boots"
   },
   "template": {
-      "item": "arcane:prismarine_upgrade_template"
+      "item": "arcane:aquatic_upgrade_template"
     }
 
 }

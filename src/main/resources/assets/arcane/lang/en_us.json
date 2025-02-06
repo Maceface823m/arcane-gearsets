@@ -5,10 +5,14 @@
   "item.arcane.tidal_leggings": "Tidal Leggings",
   "item.arcane.tidal_boots": "Tidal Boots",
   "item.arcane.custom_smithing_template": "Aquatic Smithing Template",
-  "upgrade.minecraft.aquatic_upgrade": "Aquatic Upgrade",
-  "item.minecraft.smithing_template.aquatic_upgrade.applies_to": "Diamond Equipment",
-  "item.minecraft.smithing_template.aquatic_upgrade.ingredients": "Heart of the Sea",
+  "upgrade.minecraft.prismarine_upgrade": "Aquatic Upgrade",
+  "item.minecraft.smithing_template.aquatic_upgrade.applies_to": "Diamond Equipment, Tidal Equipment",
+  "item.minecraft.smithing_template.aquatic_upgrade.ingredients": "Heart of the Sea, Conduit",
   "smithing_template.aquatic_upgrade.base_slot_description": "Upgradable Item",
   "upgrade.arcane.next_level_upgrade_additions_slot_description": "Upgrade Material",
-  "item.minecraft.smithing_template.aquatic_upgrade.base_slot_description": "Add diamond armor, weapon, or tool"
+  "item.minecraft.smithing_template.aquatic_upgrade.base_slot_description": "Add diamond armor, weapon, or tool",
+  "item.arcane.wave_breaker_helmet": "Wavebreaker Helmet",
+  "item.arcane.wave_breaker_chestplate": "Wavebreaker Chestplate",
+  "item.arcane.wave_breaker_leggings": "Wavebreaker Leggings",
+  "item.arcane.wave_breaker_boots": "Wavebreaker Boots"
 }

@@ -22,7 +22,11 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.TIDAL_HELMET)
                 .add(ModItems.TIDAL_CHESTPLATE)
                 .add(ModItems.TIDAL_LEGGINGS)
-                .add(ModItems.TIDAL_BOOTS);
+                .add(ModItems.TIDAL_BOOTS)
+                .add(ModItems.WAVE_BREAKER_HELMET)
+                .add(ModItems.WAVE_BREAKER_CHESTPLATE)
+                .add(ModItems.WAVE_BREAKER_LEGGINGS)
+                .add(ModItems.WAVE_BREAKER_BOOTS);
 
         getOrCreateTagBuilder(ItemTags.TRIM_MATERIALS)
                 .add(Items.HEART_OF_THE_SEA);
