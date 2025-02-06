@@ -2,7 +2,6 @@ package net.maceface.arcanegearsets.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
-import net.maceface.arcanegearsets.ArcaneGearsets;
 import net.maceface.arcanegearsets.item.ModItems;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.SmithingTransformRecipeJsonBuilder;
@@ -11,8 +10,6 @@ import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
-import org.intellij.lang.annotations.Identifier;
-
 
 import java.util.concurrent.CompletableFuture;
 
