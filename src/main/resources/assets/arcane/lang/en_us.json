@@ -1,13 +1,14 @@
 {
-  "item.arcane.prismarine_upgrade_template": "Smithing Template",
-  "item.arcane.prismarine_helmet": "Prismarine Helmet",
-  "item.arcane.prismarine_chestplate": "Prismarine Chestplate",
-  "item.arcane.prismarine_leggings": "Prismarine Leggings",
-  "item.arcane.prismarine_boots": "Prismarine Boots",
-  "item.arcane.custom_smithing_template": "Next Level Smithing Template",
-  "upgrade.minecraft.prismarine_upgrade": "Prismarine Upgrade",
-  "item.minecraft.smithing_template.prismarine_upgrade.applies_to": "Diamond Equipment",
-  "item.minecraft.smithing_template.prismarine_upgrade.ingredients": "Prismarine Shard",
-  "smithing_template.prismarine_upgrade.base_slot_description": "Upgradable Item",
-  "upgrade.arcane.next_level_upgrade_additions_slot_description": "Upgrade Material"
+  "item.arcane.aquatic_upgrade_template": "Smithing Template",
+  "item.arcane.tidal_helmet": "Tidal Helmet",
+  "item.arcane.tidal_chestplate": "Tidal Chestplate",
+  "item.arcane.tidal_leggings": "Tidal Leggings",
+  "item.arcane.tidal_boots": "Tidal Boots",
+  "item.arcane.custom_smithing_template": "Aquatic Smithing Template",
+  "upgrade.minecraft.aquatic_upgrade": "Aquatic Upgrade",
+  "item.minecraft.smithing_template.aquatic_upgrade.applies_to": "Diamond Equipment",
+  "item.minecraft.smithing_template.aquatic_upgrade.ingredients": "Heart of the Sea",
+  "smithing_template.aquatic_upgrade.base_slot_description": "Upgradable Item",
+  "upgrade.arcane.next_level_upgrade_additions_slot_description": "Upgrade Material",
+  "item.minecraft.smithing_template.aquatic_upgrade.base_slot_description": "Add diamond armor, weapon, or tool"
 }

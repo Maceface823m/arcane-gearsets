@@ -18,7 +18,7 @@ import java.util.function.Supplier;
 
 public class ModArmorMaterials {
 
-    public static final RegistryEntry<ArmorMaterial> PRISMARINE_ARMOR_MATERIAL = registerArmorMaterial("prismarine",
+    public static final RegistryEntry<ArmorMaterial> TIDAL_ARMOR_MATERIAL = registerArmorMaterial("tidal",
             () -> new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), typeIntegerEnumMap -> {
                 typeIntegerEnumMap.put(ArmorItem.Type.BOOTS, 3);
                 typeIntegerEnumMap.put(ArmorItem.Type.LEGGINGS, 6);
@@ -26,7 +26,7 @@ public class ModArmorMaterials {
                 typeIntegerEnumMap.put(ArmorItem.Type.HELMET, 3);
                 typeIntegerEnumMap.put(ArmorItem.Type.BODY, 11);
             }), 10, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, () -> Ingredient.ofItems(Items.PRISMARINE_SHARD),
-                    List.of(new ArmorMaterial.Layer(Identifier.of(ArcaneGearsets.MOD_ID, "prismarine"))), 3.0f, 0.1f));
+                    List.of(new ArmorMaterial.Layer(Identifier.of(ArcaneGearsets.MOD_ID, "tidal"))), 3.0f, 0.1f));
 
     public static RegistryEntry<ArmorMaterial> registerArmorMaterial(String name, Supplier<ArmorMaterial> material) {
         return Registry.registerReference(Registries.ARMOR_MATERIAL, Identifier.of(ArcaneGearsets.MOD_ID, name), material.get());

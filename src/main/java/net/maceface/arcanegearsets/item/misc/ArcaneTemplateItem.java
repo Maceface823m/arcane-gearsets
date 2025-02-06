@@ -14,32 +14,32 @@ public class ArcaneTemplateItem {
     private static final Formatting TITLE_FORMATTING = Formatting.GRAY;
 
 
-    private static final Text PRISMARINE_UPGRADE_APPLIES_TO_TEXT = Text.translatable(
-                    Util.createTranslationKey("item", Identifier.ofVanilla("smithing_template.prismarine_upgrade.applies_to"))
+    private static final Text AQUATIC_UPGRADE_APPLIES_TO_TEXT = Text.translatable(
+                    Util.createTranslationKey("item", Identifier.ofVanilla("smithing_template.aquatic_upgrade.applies_to"))
             )
             .formatted(DESCRIPTION_FORMATTING);
-    private static final Text PRISMARINE_UPGRADE_INGREDIENTS_TEXT = Text.translatable(
-                    Util.createTranslationKey("item", Identifier.ofVanilla("smithing_template.prismarine_upgrade.ingredients"))
+    private static final Text AQUATIC_UPGRADE_INGREDIENTS_TEXT = Text.translatable(
+                    Util.createTranslationKey("item", Identifier.ofVanilla("smithing_template.aquatic_upgrade.ingredients"))
             )
             .formatted(DESCRIPTION_FORMATTING);
-    private static final Text PRISMARINE_UPGRADE_TEXT = Text.translatable(Util.createTranslationKey("upgrade", Identifier.ofVanilla("prismarine_upgrade")))
+    private static final Text AQUATIC_UPGRADE_TEXT = Text.translatable(Util.createTranslationKey("upgrade", Identifier.ofVanilla("prismarine_upgrade")))
             .formatted(TITLE_FORMATTING);
-    private static final Text PRISMARINE_UPGRADE_BASE_SLOT_DESCRIPTION_TEXT = Text.translatable(
-            Util.createTranslationKey("item", Identifier.ofVanilla("smithing_template.prismarine_upgrade.base_slot_description"))
+    private static final Text AQUATIC_UPGRADE_BASE_SLOT_DESCRIPTION_TEXT = Text.translatable(
+            Util.createTranslationKey("item", Identifier.ofVanilla("smithing_template.aquatic_upgrade.base_slot_description"))
     );
-    private static final Text PRISMARINE_UPGRADE_ADDITIONS_SLOT_DESCRIPTION_TEXT = Text.translatable(
-            Util.createTranslationKey("item", Identifier.ofVanilla("smithing_template.prismarine_upgrade.additions_slot_description"))
+    private static final Text AQUATIC_UPGRADE_ADDITIONS_SLOT_DESCRIPTION_TEXT = Text.translatable(
+            Util.createTranslationKey("item", Identifier.ofVanilla("smithing_template.aquatic_upgrade.additions_slot_description"))
     );
 
-    public static SmithingTemplateItem createPrismarineUpgrade() {
+    public static SmithingTemplateItem createAquaticUpgrade() {
         return new SmithingTemplateItem(
-                PRISMARINE_UPGRADE_APPLIES_TO_TEXT,
-                PRISMARINE_UPGRADE_INGREDIENTS_TEXT,
-                PRISMARINE_UPGRADE_TEXT,
-                PRISMARINE_UPGRADE_BASE_SLOT_DESCRIPTION_TEXT,
-                PRISMARINE_UPGRADE_ADDITIONS_SLOT_DESCRIPTION_TEXT,
-                getPrismarineUpgradeEmptyBaseSlotTextures(),
-                getPrismarineUpgradeEmptyAdditionsSlotTextures()
+                AQUATIC_UPGRADE_APPLIES_TO_TEXT,
+                AQUATIC_UPGRADE_INGREDIENTS_TEXT,
+                AQUATIC_UPGRADE_TEXT,
+                AQUATIC_UPGRADE_BASE_SLOT_DESCRIPTION_TEXT,
+                AQUATIC_UPGRADE_ADDITIONS_SLOT_DESCRIPTION_TEXT,
+                getAquaticUpgradeEmptyBaseSlotTextures(),
+                getAquaticUpgradeEmptyAdditionsSlotTextures()
         );
     }
 
@@ -54,11 +54,11 @@ public class ArcaneTemplateItem {
     private static final Identifier EMPTY_SLOT_PICKAXE_TEXTURE = Identifier.ofVanilla("item/empty_slot_pickaxe");
     private static final Identifier EMPTY_SLOT_INGOT_TEXTURE = Identifier.ofVanilla("item/empty_slot_ingot");
 
-    private static List<Identifier> getPrismarineUpgradeEmptyAdditionsSlotTextures() {
+    private static List<Identifier> getAquaticUpgradeEmptyAdditionsSlotTextures() {
         return List.of(EMPTY_SLOT_INGOT_TEXTURE);
     }
 
-    private static List<Identifier> getPrismarineUpgradeEmptyBaseSlotTextures() {
+    private static List<Identifier> getAquaticUpgradeEmptyBaseSlotTextures() {
         return List.of(
                 EMPTY_ARMOR_SLOT_HELMET_TEXTURE,
                 EMPTY_SLOT_SWORD_TEXTURE,

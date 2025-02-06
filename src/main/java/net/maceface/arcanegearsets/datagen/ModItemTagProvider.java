@@ -19,14 +19,10 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
 
         getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
-                .add(ModItems.PRISMARINE_HELMET)
-                .add(ModItems.PRISMARINE_CHESTPLATE)
-                .add(ModItems.PRISMARINE_LEGGINGS)
-                .add(ModItems.PRISMARINE_BOOTS);
-
-        getOrCreateTagBuilder(ItemTags.TRIM_TEMPLATES)
-                .add(ModItems.PRISMARINE_UPGRADE_TEMPLATE)
-                .add(Items.HEART_OF_THE_SEA);
+                .add(ModItems.TIDAL_HELMET)
+                .add(ModItems.TIDAL_CHESTPLATE)
+                .add(ModItems.TIDAL_LEGGINGS)
+                .add(ModItems.TIDAL_BOOTS);
 
         getOrCreateTagBuilder(ItemTags.TRIM_MATERIALS)
                 .add(Items.HEART_OF_THE_SEA);

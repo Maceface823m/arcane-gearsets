@@ -14,23 +14,23 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
-    public static final Item PRISMARINE_UPGRADE_TEMPLATE = registerItem("prismarine_upgrade_template", ArcaneTemplateItem.createPrismarineUpgrade());
+    public static final Item AQUATIC_UPGRADE_TEMPLATE = registerItem("aquatic_upgrade_template", ArcaneTemplateItem.createAquaticUpgrade());
 
 
-    public static final Item PRISMARINE_HELMET = registerItem("prismarine_helmet",
-            new ModArmorItem(ModArmorMaterials.PRISMARINE_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+    public static final Item TIDAL_HELMET = registerItem("tidal_helmet",
+            new ModArmorItem(ModArmorMaterials.TIDAL_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
                     .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(37))));
 
-    public static final Item PRISMARINE_CHESTPLATE = registerItem("prismarine_chestplate",
-            new ArmorItem(ModArmorMaterials.PRISMARINE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+    public static final Item TIDAL_CHESTPLATE = registerItem("tidal_chestplate",
+            new ArmorItem(ModArmorMaterials.TIDAL_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
                 .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(37))));
 
-    public static final Item PRISMARINE_LEGGINGS = registerItem("prismarine_leggings",
-            new ArmorItem(ModArmorMaterials.PRISMARINE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+    public static final Item TIDAL_LEGGINGS = registerItem("tidal_leggings",
+            new ArmorItem(ModArmorMaterials.TIDAL_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(37))));
 
-    public static final Item PRISMARINE_BOOTS = registerItem("prismarine_boots",
-            new ArmorItem(ModArmorMaterials.PRISMARINE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+    public static final Item TIDAL_BOOTS = registerItem("tidal_boots",
+            new ArmorItem(ModArmorMaterials.TIDAL_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(37))));
 
 
@@ -47,13 +47,13 @@ public class ModItems {
         ArcaneGearsets.LOGGER.info("Restering Mod Items For " + ArcaneGearsets.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
-            fabricItemGroupEntries.add(PRISMARINE_UPGRADE_TEMPLATE);
+            fabricItemGroupEntries.add(AQUATIC_UPGRADE_TEMPLATE);
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(fabricItemGroupEntries -> {
-            fabricItemGroupEntries.add(PRISMARINE_HELMET);
-            fabricItemGroupEntries.add(PRISMARINE_CHESTPLATE);
-            fabricItemGroupEntries.add(PRISMARINE_LEGGINGS);
-            fabricItemGroupEntries.add(PRISMARINE_BOOTS);
+            fabricItemGroupEntries.add(TIDAL_HELMET);
+            fabricItemGroupEntries.add(TIDAL_CHESTPLATE);
+            fabricItemGroupEntries.add(TIDAL_LEGGINGS);
+            fabricItemGroupEntries.add(TIDAL_BOOTS);
         });
     }
 

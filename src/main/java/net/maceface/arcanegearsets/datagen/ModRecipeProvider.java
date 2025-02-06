@@ -39,7 +39,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
     public static void createPrismarineUpgrade(RecipeExporter exporter, Item base, RecipeCategory category) {
         SmithingTransformRecipeJsonBuilder.create(
-                Ingredient.ofItems(ModItems.PRISMARINE_UPGRADE_TEMPLATE),
+                Ingredient.ofItems(ModItems.AQUATIC_UPGRADE_TEMPLATE),
                 Ingredient.ofItems(base),
                 Ingredient.ofItems(Items.HEART_OF_THE_SEA),
                 category,

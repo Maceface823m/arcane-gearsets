@@ -20,11 +20,11 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
-        itemModelGenerator.register(ModItems.PRISMARINE_UPGRADE_TEMPLATE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.AQUATIC_UPGRADE_TEMPLATE, Models.GENERATED);
 
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.PRISMARINE_HELMET));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.PRISMARINE_CHESTPLATE));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.PRISMARINE_LEGGINGS));
-        itemModelGenerator.registerArmor(((ArmorItem) ModItems.PRISMARINE_BOOTS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.TIDAL_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.TIDAL_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.TIDAL_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.TIDAL_BOOTS));
     }
 }
