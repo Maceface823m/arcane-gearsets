@@ -3,6 +3,8 @@ package net.maceface.arcanegearsets.item;
 import net.fabricmc.fabric.api.item.v1.FabricItem;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.maceface.arcanegearsets.ArcaneGearsets;
+import net.maceface.arcanegearsets.datagen.ModRecipeProvider;
+import net.maceface.arcanegearsets.item.misc.ArcaneTemplateItem;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -15,15 +17,7 @@ import java.util.List;
 public class ModItems {
 
     public static final Item PRISMARINE_UPGRADE_TEMPLATE = registerItem("prismarine_upgrade_template", SmithingTemplateItem.createNetheriteUpgrade());
-    //public static final Item PRISMARINE_UPGRADE_TEMPLATE = registerItem("prismarine_upgrade_template", new Item(new Item.Settings()));
-            //new SmithingTemplateItem(
-                    //Text.translatable("upgrade.yourmodid.prismarine_upgrade"), // Title
-                    //Text.translatable("upgrade.yourmodid.prismarine_upgrade_applies_to"), // Applies to
-                    //Text.translatable("upgrade.yourmodid.prismarine_upgrade_ingredients"), // Ingredients
-                    //Text.translatable("upgrade.yourmodid.prismarine_upgrade_base_slot"), // Base slot
-                    //Text.translatable("upgrade.yourmodid.prismarine_upgrade_additions_slot"), // Additions slot
-                    //List.of(Items.DIAMOND_HELMET, Items.DIAMOND_CHESTPLATE, Items.DIAMOND_LEGGINGS, Items.DIAMOND_BOOTS), // Base items
-                    //List.of(new Identifier("minecraft", "heart_of_the_sea")) // Addition items
+
 
 
 

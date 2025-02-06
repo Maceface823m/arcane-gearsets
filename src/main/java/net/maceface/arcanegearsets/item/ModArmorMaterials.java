@@ -26,7 +26,7 @@ public class ModArmorMaterials {
                 typeIntegerEnumMap.put(ArmorItem.Type.HELMET, 3);
                 typeIntegerEnumMap.put(ArmorItem.Type.BODY, 11);
             }), 10, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, () -> Ingredient.ofItems(Items.PRISMARINE_SHARD),
-                    List.of(new ArmorMaterial.Layer(Identifier.of(ArcaneGearsets.MOD_ID, "prismarine_shard"))), 3.0f, 0.1f));
+                    List.of(new ArmorMaterial.Layer(Identifier.of(ArcaneGearsets.MOD_ID, "prismarine"))), 3.0f, 0.1f));
 
     public static RegistryEntry<ArmorMaterial> registerArmorMaterial(String name, Supplier<ArmorMaterial> material) {
         return Registry.registerReference(Registries.ARMOR_MATERIAL, Identifier.of(ArcaneGearsets.MOD_ID, name), material.get());

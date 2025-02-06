@@ -27,7 +27,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.PRISMARINE_BOOTS);
 
         getOrCreateTagBuilder(ItemTags.TRIM_TEMPLATES)
-                .add(ModItems.PRISMARINE_UPGRADE_TEMPLATE);
+                .add(ModItems.PRISMARINE_UPGRADE_TEMPLATE)
+                .add(Items.HEART_OF_THE_SEA);
 
         getOrCreateTagBuilder(ItemTags.TRIM_MATERIALS)
                 .add(Items.HEART_OF_THE_SEA);
