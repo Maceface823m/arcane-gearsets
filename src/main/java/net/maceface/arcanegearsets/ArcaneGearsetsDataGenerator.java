@@ -4,7 +4,6 @@ import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.maceface.arcanegearsets.datagen.ModItemTagProvider;
 import net.maceface.arcanegearsets.datagen.ModModelProvider;
-import net.maceface.arcanegearsets.datagen.ModRecipeProvider;
 
 // comment
 public class ArcaneGearsetsDataGenerator implements DataGeneratorEntrypoint {

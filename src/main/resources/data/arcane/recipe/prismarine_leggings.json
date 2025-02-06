@@ -4,11 +4,11 @@
     "item": "minecraft:heart_of_the_sea"
   },
   "base": {
-    "item": "minecraft:diamond_helmet"
+    "item": "minecraft:diamond_leggings"
   },
   "result": {
     "count": 1,
-    "id": "arcane:prismarine_helmet"
+    "id": "arcane:prismarine_leggings"
   },
   "template": {
       "item": "arcane:prismarine_upgrade_template"
