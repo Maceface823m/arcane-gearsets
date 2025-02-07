@@ -33,19 +33,19 @@ public class ModItems {
 
 
     public static final Item WAVE_BREAKER_HELMET = registerItem("wave_breaker_helmet",
-            new ModArmorItem(ModArmorMaterials.TIDAL_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+            new ModArmorItem(ModArmorMaterials.WAVE_BREAKER_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
                     .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(37))));
 
     public static final Item WAVE_BREAKER_CHESTPLATE = registerItem("wave_breaker_chestplate",
-            new ArmorItem(ModArmorMaterials.TIDAL_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+            new ArmorItem(ModArmorMaterials.WAVE_BREAKER_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
                     .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(37))));
 
     public static final Item WAVE_BREAKER_LEGGINGS = registerItem("wave_breaker_leggings",
-            new ArmorItem(ModArmorMaterials.TIDAL_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+            new ArmorItem(ModArmorMaterials.WAVE_BREAKER_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(37))));
 
     public static final Item WAVE_BREAKER_BOOTS = registerItem("wave_breaker_boots",
-            new ArmorItem(ModArmorMaterials.TIDAL_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+            new ArmorItem(ModArmorMaterials.WAVE_BREAKER_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(37))));
 
     public static final Item TIDAL_SWORD = registerItem("tidal_sword",
