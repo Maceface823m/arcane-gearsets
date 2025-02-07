@@ -4,9 +4,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.maceface.arcanegearsets.ArcaneGearsets;
 import net.maceface.arcanegearsets.item.custom.ModArmorItem;
 import net.maceface.arcanegearsets.item.misc.ArcaneTemplateItem;
-import net.minecraft.item.ArmorItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -50,6 +48,22 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.TIDAL_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(37))));
 
+    public static final Item TIDAL_SWORD = registerItem("tidal_sword",
+            new SwordItem(ModToolMaterials.TIDAL, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.TIDAL, 3, -2.4f))));
+    public static final Item TIDAL_PICKAXE = registerItem("tidal_pickaxe",
+            new PickaxeItem(ModToolMaterials.TIDAL, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.TIDAL, 1, -2.8f))));
+    public static final Item TIDAL_AXE = registerItem("tidal_axe",
+            new AxeItem(ModToolMaterials.TIDAL, new Item.Settings()
+                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.TIDAL, 1.5f, -2.4f))));
+    public static final Item TIDAL_SHOVEL = registerItem("tidal_shovel",
+            new ShovelItem(ModToolMaterials.TIDAL, new Item.Settings()
+                    .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.TIDAL, 6, -3.2f))));
+    public static final Item TIDAL_HOE = registerItem("tidal_hoe",
+            new HoeItem(ModToolMaterials.TIDAL, new Item.Settings()
+                    .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.TIDAL, 0, -3f))));
+
 
 
 
@@ -76,7 +90,18 @@ public class ModItems {
             fabricItemGroupEntries.add(WAVE_BREAKER_LEGGINGS);
             fabricItemGroupEntries.add(WAVE_BREAKER_CHESTPLATE);
             fabricItemGroupEntries.add(WAVE_BREAKER_HELMET);
+            fabricItemGroupEntries.add(TIDAL_SWORD);
+
         });
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(fabricItemGroupEntries -> {
+            fabricItemGroupEntries.add(TIDAL_PICKAXE);
+            fabricItemGroupEntries.add(TIDAL_AXE);
+            fabricItemGroupEntries.add(TIDAL_SHOVEL);
+            fabricItemGroupEntries.add(TIDAL_HOE);
+
+        });
+
     }
 
 }

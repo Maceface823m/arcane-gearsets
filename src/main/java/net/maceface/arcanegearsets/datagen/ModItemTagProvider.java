@@ -31,5 +31,29 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ItemTags.TRIM_MATERIALS)
                 .add(Items.HEART_OF_THE_SEA);
 
+        getOrCreateTagBuilder(ItemTags.SWORDS)
+                .add(ModItems.TIDAL_SWORD);
+        getOrCreateTagBuilder(ItemTags.PICKAXES)
+                .add(ModItems.TIDAL_PICKAXE);
+        getOrCreateTagBuilder(ItemTags.AXES)
+                .add(ModItems.TIDAL_AXE);
+        getOrCreateTagBuilder(ItemTags.SHOVELS)
+                .add(ModItems.TIDAL_SHOVEL);
+        getOrCreateTagBuilder(ItemTags.HOES)
+                .add(ModItems.TIDAL_HOE);
+
+        getOrCreateTagBuilder(ItemTags.HEAD_ARMOR_ENCHANTABLE)
+                .add(ModItems.TIDAL_HELMET)
+                .add(ModItems.WAVE_BREAKER_HELMET);
+        getOrCreateTagBuilder(ItemTags.CHEST_ARMOR_ENCHANTABLE)
+                .add(ModItems.TIDAL_CHESTPLATE)
+                .add(ModItems.WAVE_BREAKER_CHESTPLATE);
+        getOrCreateTagBuilder(ItemTags.LEG_ARMOR_ENCHANTABLE)
+                .add(ModItems.TIDAL_LEGGINGS)
+                .add(ModItems.WAVE_BREAKER_LEGGINGS);
+        getOrCreateTagBuilder(ItemTags.FOOT_ARMOR_ENCHANTABLE)
+                .add(ModItems.TIDAL_BOOTS)
+                .add(ModItems.WAVE_BREAKER_BOOTS);
+
     }
 }

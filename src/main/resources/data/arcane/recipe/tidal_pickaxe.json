@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:heart_of_the_sea"
+  },
+  "base": {
+    "item": "minecraft:diamond_pickaxe"
+  },
+  "result": {
+    "count": 1,
+    "id": "arcane:tidal_pickaxe"
+  },
+  "template": {
+      "item": "arcane:aquatic_upgrade_template"
+    }
+
+}

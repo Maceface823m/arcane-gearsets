@@ -19,7 +19,7 @@ public class ModArmorItem extends ArmorItem {
     private static final Map<RegistryEntry<ArmorMaterial>, List<StatusEffectInstance>> MATERIAL_TO_EFFECT_MAP =
             (new ImmutableMap.Builder<RegistryEntry<ArmorMaterial>, List<StatusEffectInstance>>())
                     .put(ModArmorMaterials.WAVE_BRREAKER_ARMOR_MATERIAL,
-                            List.of(new StatusEffectInstance(StatusEffects.WATER_BREATHING, 20, 2, false, false),
+                            List.of(new StatusEffectInstance(StatusEffects.CONDUIT_POWER, 20, 1, false, false),
                                     new StatusEffectInstance(StatusEffects.DOLPHINS_GRACE, 20, 1, false, false))).build();
 
     public ModArmorItem(RegistryEntry<ArmorMaterial> material, Type type, Settings settings) {

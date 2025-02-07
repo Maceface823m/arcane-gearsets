@@ -14,5 +14,10 @@
   "item.arcane.wave_breaker_helmet": "Wavebreaker Helmet",
   "item.arcane.wave_breaker_chestplate": "Wavebreaker Chestplate",
   "item.arcane.wave_breaker_leggings": "Wavebreaker Leggings",
-  "item.arcane.wave_breaker_boots": "Wavebreaker Boots"
+  "item.arcane.wave_breaker_boots": "Wavebreaker Boots",
+  "item.arcane.tidal_sword": "Tidal Sword",
+  "item.arcane.tidal_pickaxe": "Tidal Pickaxe",
+  "item.arcane.tidal_axe": "Tidal Axe",
+  "item.arcane.tidal_shovel": "Tidal Shovel",
+  "item.arcane.tidal_hoe": "Tidal Hoe"
 }
