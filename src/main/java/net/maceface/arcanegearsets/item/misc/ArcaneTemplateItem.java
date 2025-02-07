@@ -22,7 +22,7 @@ public class ArcaneTemplateItem {
                     Util.createTranslationKey("item", Identifier.ofVanilla("smithing_template.aquatic_upgrade.ingredients"))
             )
             .formatted(DESCRIPTION_FORMATTING);
-    private static final Text AQUATIC_UPGRADE_TEXT = Text.translatable(Util.createTranslationKey("upgrade", Identifier.ofVanilla("prismarine_upgrade")))
+    private static final Text AQUATIC_UPGRADE_TEXT = Text.translatable(Util.createTranslationKey("upgrade", Identifier.ofVanilla("aquatic_upgrade")))
             .formatted(TITLE_FORMATTING);
     private static final Text AQUATIC_UPGRADE_BASE_SLOT_DESCRIPTION_TEXT = Text.translatable(
             Util.createTranslationKey("item", Identifier.ofVanilla("smithing_template.aquatic_upgrade.base_slot_description"))

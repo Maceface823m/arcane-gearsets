@@ -1,0 +1,7 @@
+{
+  "item.minecraft.smithing_template.netherite_upgrade.additions_slot_description": "Add Netherite Ingot or Nether Star",
+  "item.minecraft.smithing_template.netherite_upgrade.applies_to": "Diamond Equipment, Netherite_Equpiment",
+  "item.minecraft.smithing_template.netherite_upgrade.base_slot_description": "Add diamond or netherite armor, weapon, or tool",
+  "item.minecraft.smithing_template.netherite_upgrade.ingredients": "Netherite Ingot, Nether Star",
+  "upgrade.minecraft.netherite_upgrade": "Nether Upgrade"
+}

@@ -14,7 +14,9 @@ import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
 
-    TIDAL(ModTags.Blocks.INCORRECT_FOR_TIDAL_TOOL, 2031, 9F, 4.0F, 15, () -> Ingredient.ofItems(Items.PRISMARINE_SHARD));
+    TIDAL(ModTags.Blocks.INCORRECT_FOR_TIDAL_TOOL, 2031, 9F, 4.0F, 15, () -> Ingredient.ofItems(Items.PRISMARINE_SHARD)),
+
+    WAVE_BREAKER(ModTags.Blocks.INCORRECT_FOR_WAVE_BREAKER_TOOL, 2031, 9F, 4.0F, 15, () -> Ingredient.ofItems(Items.NAUTILUS_SHELL));
 
     private final TagKey<Block> inverseTag;
     private final int itemDurability;

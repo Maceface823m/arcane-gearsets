@@ -25,19 +25,29 @@ public class ModArmorMaterials {
                 typeIntegerEnumMap.put(ArmorItem.Type.CHESTPLATE, 8);
                 typeIntegerEnumMap.put(ArmorItem.Type.HELMET, 3);
                 typeIntegerEnumMap.put(ArmorItem.Type.BODY, 11);
-            }), 10, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, () -> Ingredient.ofItems(Items.PRISMARINE_SHARD),
-                    List.of(new ArmorMaterial.Layer(Identifier.of(ArcaneGearsets.MOD_ID, "tidal"))), 3.0f, 0.1f));
+            }), 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, () -> Ingredient.ofItems(Items.PRISMARINE_SHARD),
+                    List.of(new ArmorMaterial.Layer(Identifier.of(ArcaneGearsets.MOD_ID, "tidal"))), 3.0f, 1f));
 
 
     public static final RegistryEntry<ArmorMaterial> WAVE_BREAKER_ARMOR_MATERIAL = registerArmorMaterial("wave_breaker",
             () -> new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), typeIntegerEnumMap -> {
-                typeIntegerEnumMap.put(ArmorItem.Type.BOOTS, 3);
-                typeIntegerEnumMap.put(ArmorItem.Type.LEGGINGS, 6);
-                typeIntegerEnumMap.put(ArmorItem.Type.CHESTPLATE, 8);
-                typeIntegerEnumMap.put(ArmorItem.Type.HELMET, 3);
-                typeIntegerEnumMap.put(ArmorItem.Type.BODY, 11);
-            }), 10, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, () -> Ingredient.ofItems(Items.PRISMARINE_SHARD),
-                    List.of(new ArmorMaterial.Layer(Identifier.of(ArcaneGearsets.MOD_ID, "wave_breaker"))), 3.0f, 0.1f));
+                typeIntegerEnumMap.put(ArmorItem.Type.BOOTS, 4);
+                typeIntegerEnumMap.put(ArmorItem.Type.LEGGINGS, 7);
+                typeIntegerEnumMap.put(ArmorItem.Type.CHESTPLATE, 9);
+                typeIntegerEnumMap.put(ArmorItem.Type.HELMET, 4);
+                typeIntegerEnumMap.put(ArmorItem.Type.BODY, 12);
+            }), 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, () -> Ingredient.ofItems(Items.NAUTILUS_SHELL),
+                    List.of(new ArmorMaterial.Layer(Identifier.of(ArcaneGearsets.MOD_ID, "wave_breaker"))), 4.0f, 1.5f));
+
+    public static final RegistryEntry<ArmorMaterial> WITHERITE_ARMOR_MATERIAL = registerArmorMaterial("witherite",
+            () -> new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), typeIntegerEnumMap -> {
+                typeIntegerEnumMap.put(ArmorItem.Type.BOOTS, 4);
+                typeIntegerEnumMap.put(ArmorItem.Type.LEGGINGS, 7);
+                typeIntegerEnumMap.put(ArmorItem.Type.CHESTPLATE, 9);
+                typeIntegerEnumMap.put(ArmorItem.Type.HELMET, 4);
+                typeIntegerEnumMap.put(ArmorItem.Type.BODY, 12);
+            }), 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, () -> Ingredient.ofItems(Items.WITHER_SKELETON_SKULL),
+                    List.of(new ArmorMaterial.Layer(Identifier.of(ArcaneGearsets.MOD_ID, "witherite"))), 4.0f, 1.5f));
 
     public static RegistryEntry<ArmorMaterial> registerArmorMaterial(String name, Supplier<ArmorMaterial> material) {
         return Registry.registerReference(Registries.ARMOR_MATERIAL, Identifier.of(ArcaneGearsets.MOD_ID, name), material.get());

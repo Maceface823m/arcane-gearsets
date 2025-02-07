@@ -32,11 +32,22 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.WAVE_BREAKER_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.WAVE_BREAKER_BOOTS));
 
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.WITHERITE_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.WITHERITE_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.WITHERITE_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.WITHERITE_BOOTS));
+
         itemModelGenerator.register(ModItems.TIDAL_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.TIDAL_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.TIDAL_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.TIDAL_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.TIDAL_HOE, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.WAVE_BREAKER_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.WAVE_BREAKER_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.WAVE_BREAKER_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.WAVE_BREAKER_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.WAVE_BREAKER_HOE, Models.HANDHELD);
 
 
     }

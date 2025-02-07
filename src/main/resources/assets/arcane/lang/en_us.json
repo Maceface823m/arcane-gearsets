@@ -5,7 +5,7 @@
   "item.arcane.tidal_leggings": "Tidal Leggings",
   "item.arcane.tidal_boots": "Tidal Boots",
   "item.arcane.custom_smithing_template": "Aquatic Smithing Template",
-  "upgrade.minecraft.prismarine_upgrade": "Aquatic Upgrade",
+  "upgrade.minecraft.aquatic_upgrade": "Aquatic Upgrade",
   "item.minecraft.smithing_template.aquatic_upgrade.applies_to": "Diamond Equipment, Tidal Equipment",
   "item.minecraft.smithing_template.aquatic_upgrade.ingredients": "Heart of the Sea, Conduit",
   "smithing_template.aquatic_upgrade.base_slot_description": "Upgradable Item",
@@ -19,5 +19,14 @@
   "item.arcane.tidal_pickaxe": "Tidal Pickaxe",
   "item.arcane.tidal_axe": "Tidal Axe",
   "item.arcane.tidal_shovel": "Tidal Shovel",
-  "item.arcane.tidal_hoe": "Tidal Hoe"
+  "item.arcane.tidal_hoe": "Tidal Hoe",
+  "item.arcane.wave_breaker_sword": "Wavebreaker Sword",
+  "item.arcane.wave_breaker_pickaxe": "Wavebreaker Pickaxe",
+  "item.arcane.wave_breaker_axe": "Wavebreaker Axe",
+  "item.arcane.wave_breaker_shovel": "Wavebreaker Shovel",
+  "item.arcane.wave_breaker_hoe": "Wavebreaker Hoe",
+  "item.arcane.witherite_helmet": "Witherite Helmet",
+  "item.arcane.witherite_chestplate": "Witherite Chestplate",
+  "item.arcane.witherite_leggings": "Witherite Leggings",
+  "item.arcane.witherite_boots": "Witherite Boots"
 }
