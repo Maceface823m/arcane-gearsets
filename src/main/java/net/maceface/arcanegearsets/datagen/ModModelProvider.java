@@ -21,6 +21,7 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.AQUATIC_UPGRADE_TEMPLATE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TRIAL_UPGRADE_TEMPLATE, Models.GENERATED);
 
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.TIDAL_HELMET));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.TIDAL_CHESTPLATE));
@@ -48,6 +49,12 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.WAVE_BREAKER_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.WAVE_BREAKER_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.WAVE_BREAKER_HOE, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.WITHERITE_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.WITHERITE_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.WITHERITE_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.WITHERITE_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.WITHERITE_HOE, Models.HANDHELD);
 
 
     }

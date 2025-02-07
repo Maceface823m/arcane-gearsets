@@ -10,7 +10,14 @@
   "item.minecraft.smithing_template.aquatic_upgrade.ingredients": "Heart of the Sea, Conduit",
   "smithing_template.aquatic_upgrade.base_slot_description": "Upgradable Item",
   "upgrade.arcane.next_level_upgrade_additions_slot_description": "Upgrade Material",
-  "item.minecraft.smithing_template.aquatic_upgrade.base_slot_description": "Add diamond armor, weapon, or tool",
+  "item.minecraft.smithing_template.aquatic_upgrade.base_slot_description": "Add diamond or tidal armor, weapon, or tool",
+
+  "upgrade.minecraft.trial_upgrade": "Trial Upgrade",
+  "item.minecraft.smithing_template.trial_upgrade.applies_to": "Diamond Equipment",
+  "item.minecraft.smithing_template.trial_upgrade.ingredients": "Heavy Core",
+  "smithing_template.trial_upgrade.base_slot_description": "Upgradable Item",
+  "item.minecraft.smithing_template.trial_upgrade.base_slot_description": "Add diamond armor, weapon, or tool",
+
   "item.arcane.wave_breaker_helmet": "Wavebreaker Helmet",
   "item.arcane.wave_breaker_chestplate": "Wavebreaker Chestplate",
   "item.arcane.wave_breaker_leggings": "Wavebreaker Leggings",
@@ -28,5 +35,10 @@
   "item.arcane.witherite_helmet": "Witherite Helmet",
   "item.arcane.witherite_chestplate": "Witherite Chestplate",
   "item.arcane.witherite_leggings": "Witherite Leggings",
-  "item.arcane.witherite_boots": "Witherite Boots"
+  "item.arcane.witherite_boots": "Witherite Boots",
+  "item.arcane.witherite_sword": "Witherite Sword",
+  "item.arcane.witherite_pickaxe": "Witherite Pickaxe",
+  "item.arcane.witherite_axe": "Witherite Axe",
+  "item.arcane.witherite_shovel": "Witherite Shovel",
+  "item.arcane.witherite_hoe": "Witherite Hoe"
 }

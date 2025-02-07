@@ -3,6 +3,7 @@ package net.maceface.arcanegearsets.item;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.maceface.arcanegearsets.ArcaneGearsets;
 import net.maceface.arcanegearsets.item.custom.ModArmorItem;
+import net.maceface.arcanegearsets.item.custom.ModWitheringToolItem;
 import net.maceface.arcanegearsets.item.misc.ArcaneTemplateItem;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
@@ -13,6 +14,7 @@ import net.minecraft.util.Identifier;
 public class ModItems {
 
     public static final Item AQUATIC_UPGRADE_TEMPLATE = registerItem("aquatic_upgrade_template", ArcaneTemplateItem.createAquaticUpgrade());
+    public static final Item TRIAL_UPGRADE_TEMPLATE = registerItem("trial_upgrade_template", ArcaneTemplateItem.createTrialUpgrade());
 
 
     public static final Item TIDAL_HELMET = registerItem("tidal_helmet",
@@ -95,11 +97,11 @@ public class ModItems {
                     .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.WAVE_BREAKER, 4, -1.4f))));
 
     public static final Item WAVE_BREAKER_PICKAXE = registerItem("wave_breaker_pickaxe",
-            new PickaxeItem(ModToolMaterials.TIDAL, new Item.Settings()
+            new PickaxeItem(ModToolMaterials.WAVE_BREAKER, new Item.Settings()
                     .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.WAVE_BREAKER, 2, -1.8f))));
 
     public static final Item WAVE_BREAKER_AXE = registerItem("wave_breaker_axe",
-            new AxeItem(ModToolMaterials.TIDAL, new Item.Settings()
+            new AxeItem(ModToolMaterials.WAVE_BREAKER, new Item.Settings()
                     .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.WAVE_BREAKER, 6f, -2f))));
 
     public static final Item WAVE_BREAKER_SHOVEL = registerItem("wave_breaker_shovel",
@@ -110,6 +112,28 @@ public class ModItems {
             new HoeItem(ModToolMaterials.WAVE_BREAKER, new Item.Settings()
                     .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.WAVE_BREAKER, -3f, 1))));
 
+
+
+
+    public static final Item WITHERITE_SWORD = registerItem("witherite_sword",
+            new ModWitheringToolItem(ModToolMaterials.WITHERITE, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.WITHERITE, 4, -1.4f))));
+
+    public static final Item WITHERITE_PICKAXE = registerItem("witherite_pickaxe",
+            new ModWitheringToolItem(ModToolMaterials.WITHERITE, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.WITHERITE, 2, -1.8f))));
+
+    public static final Item WITHERITE_AXE = registerItem("witherite_axe",
+            new ModWitheringToolItem(ModToolMaterials.WITHERITE, new Item.Settings()
+                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.WITHERITE, 6f, -2f))));
+
+    public static final Item WITHERITE_SHOVEL = registerItem("witherite_shovel",
+            new ModWitheringToolItem(ModToolMaterials.WITHERITE, new Item.Settings()
+                    .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.WITHERITE, 2.5f, -2f))));
+
+    public static final Item WITHERITE_HOE = registerItem("witherite_hoe",
+            new ModWitheringToolItem(ModToolMaterials.WITHERITE, new Item.Settings()
+                    .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.WITHERITE, -3f, 1))));
 
 
 
@@ -130,20 +154,26 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(TIDAL_SWORD);
             fabricItemGroupEntries.add(WAVE_BREAKER_SWORD);
+            fabricItemGroupEntries.add(WITHERITE_SWORD);
             fabricItemGroupEntries.add(TIDAL_AXE);
             fabricItemGroupEntries.add(WAVE_BREAKER_AXE);
-            fabricItemGroupEntries.add(TIDAL_BOOTS);
-            fabricItemGroupEntries.add(TIDAL_LEGGINGS);
-            fabricItemGroupEntries.add(TIDAL_CHESTPLATE);
+            fabricItemGroupEntries.add(WITHERITE_AXE);
+
             fabricItemGroupEntries.add(TIDAL_HELMET);
-            fabricItemGroupEntries.add(WAVE_BREAKER_BOOTS);
-            fabricItemGroupEntries.add(WAVE_BREAKER_LEGGINGS);
-            fabricItemGroupEntries.add(WAVE_BREAKER_CHESTPLATE);
+            fabricItemGroupEntries.add(TIDAL_CHESTPLATE);
+            fabricItemGroupEntries.add(TIDAL_LEGGINGS);
+            fabricItemGroupEntries.add(TIDAL_BOOTS);
+
             fabricItemGroupEntries.add(WAVE_BREAKER_HELMET);
-            fabricItemGroupEntries.add(WITHERITE_BOOTS);
-            fabricItemGroupEntries.add(WITHERITE_LEGGINGS);
-            fabricItemGroupEntries.add(WITHERITE_CHESTPLATE);
+            fabricItemGroupEntries.add(WAVE_BREAKER_CHESTPLATE);
+            fabricItemGroupEntries.add(WAVE_BREAKER_LEGGINGS);
+            fabricItemGroupEntries.add(WAVE_BREAKER_BOOTS);
+
             fabricItemGroupEntries.add(WITHERITE_HELMET);
+            fabricItemGroupEntries.add(WITHERITE_CHESTPLATE);
+            fabricItemGroupEntries.add(WITHERITE_LEGGINGS);
+            fabricItemGroupEntries.add(WITHERITE_BOOTS);
+
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
             //fabricItemGroupEntries.addAfter();
@@ -158,6 +188,11 @@ public class ModItems {
             fabricItemGroupEntries.add(WAVE_BREAKER_PICKAXE);
             fabricItemGroupEntries.add(WAVE_BREAKER_AXE);
             fabricItemGroupEntries.add(WAVE_BREAKER_HOE);
+
+            fabricItemGroupEntries.add(WITHERITE_SHOVEL);
+            fabricItemGroupEntries.add(WITHERITE_PICKAXE);
+            fabricItemGroupEntries.add(WITHERITE_AXE);
+            fabricItemGroupEntries.add(WITHERITE_HOE);
 
         });
 
