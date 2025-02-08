@@ -149,6 +149,7 @@ public class ModItems {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(AQUATIC_UPGRADE_TEMPLATE);
+            fabricItemGroupEntries.add(TRIAL_UPGRADE_TEMPLATE);
         });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(fabricItemGroupEntries -> {

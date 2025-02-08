@@ -12,6 +12,7 @@
   "upgrade.arcane.next_level_upgrade_additions_slot_description": "Upgrade Material",
   "item.minecraft.smithing_template.aquatic_upgrade.base_slot_description": "Add diamond or tidal armor, weapon, or tool",
 
+  "item.arcane.trial_upgrade_template": "Smithing Template",
   "upgrade.minecraft.trial_upgrade": "Trial Upgrade",
   "item.minecraft.smithing_template.trial_upgrade.applies_to": "Diamond Equipment",
   "item.minecraft.smithing_template.trial_upgrade.ingredients": "Heavy Core",
