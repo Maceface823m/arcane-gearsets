@@ -49,6 +49,18 @@ public class ModArmorMaterials {
             }), 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, () -> Ingredient.ofItems(Items.WITHER_SKELETON_SKULL),
                     List.of(new ArmorMaterial.Layer(Identifier.of(ArcaneGearsets.MOD_ID, "witherite"))), 4.0f, 1.5f));
 
+    public static final RegistryEntry<ArmorMaterial> HEAVY_ARMOR_MATERIAL = registerArmorMaterial("heavy",
+            () -> new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), typeIntegerEnumMap -> {
+                typeIntegerEnumMap.put(ArmorItem.Type.BOOTS, 3);
+                typeIntegerEnumMap.put(ArmorItem.Type.LEGGINGS, 6);
+                typeIntegerEnumMap.put(ArmorItem.Type.CHESTPLATE, 8);
+                typeIntegerEnumMap.put(ArmorItem.Type.HELMET, 3);
+                typeIntegerEnumMap.put(ArmorItem.Type.BODY, 11);
+            }), 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, () -> Ingredient.ofItems(Items.BREEZE_ROD),
+                    List.of(new ArmorMaterial.Layer(Identifier.of(ArcaneGearsets.MOD_ID, "heavy"))), 3.0f, 1f));
+
+
+
     public static RegistryEntry<ArmorMaterial> registerArmorMaterial(String name, Supplier<ArmorMaterial> material) {
         return Registry.registerReference(Registries.ARMOR_MATERIAL, Identifier.of(ArcaneGearsets.MOD_ID, name), material.get());
     }

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:heavy_core"
+  },
+  "base": {
+    "item": "minecraft:netherite_leggings"
+  },
+  "result": {
+    "count": 1,
+    "id": "arcane:heavy_leggings"
+  },
+  "template": {
+      "item": "arcane:trial_upgrade_template"
+    }
+
+}

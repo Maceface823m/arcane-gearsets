@@ -41,5 +41,9 @@
   "item.arcane.witherite_pickaxe": "Witherite Pickaxe",
   "item.arcane.witherite_axe": "Witherite Axe",
   "item.arcane.witherite_shovel": "Witherite Shovel",
-  "item.arcane.witherite_hoe": "Witherite Hoe"
+  "item.arcane.witherite_hoe": "Witherite Hoe",
+  "item.arcane.heavy_helmet": "Heavy Helmet",
+  "item.arcane.heavy_chestplate": "Heavy Chestplate",
+  "item.arcane.heavy_leggings": "Heavy Leggings",
+  "item.arcane.heavy_boots": "Heavy Boots"
 }

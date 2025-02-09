@@ -70,6 +70,24 @@ public class ModItems {
 
 
 
+    public static final Item HEAVY_HELMET = registerItem("heavy_helmet",
+            new ModArmorItem(ModArmorMaterials.HEAVY_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(37))));
+
+    public static final Item HEAVY_CHESTPLATE = registerItem("heavy_chestplate",
+            new ArmorItem(ModArmorMaterials.HEAVY_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(37))));
+
+    public static final Item HEAVY_LEGGINGS = registerItem("heavy_leggings",
+            new ArmorItem(ModArmorMaterials.HEAVY_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(37))));
+
+    public static final Item HEAVY_BOOTS = registerItem("heavy_boots",
+            new ArmorItem(ModArmorMaterials.HEAVY_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(37))));
+
+
+
     public static final Item TIDAL_SWORD = registerItem("tidal_sword",
             new SwordItem(ModToolMaterials.TIDAL, new Item.Settings()
                     .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.TIDAL, 3, -2.4f))));
@@ -139,6 +157,9 @@ public class ModItems {
 
 
 
+
+
+
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(ArcaneGearsets.MOD_ID, name), item);
     }
@@ -174,6 +195,11 @@ public class ModItems {
             fabricItemGroupEntries.add(WITHERITE_CHESTPLATE);
             fabricItemGroupEntries.add(WITHERITE_LEGGINGS);
             fabricItemGroupEntries.add(WITHERITE_BOOTS);
+
+            fabricItemGroupEntries.add(HEAVY_HELMET);
+            fabricItemGroupEntries.add(HEAVY_CHESTPLATE);
+            fabricItemGroupEntries.add(HEAVY_LEGGINGS);
+            fabricItemGroupEntries.add(HEAVY_BOOTS);
 
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {

@@ -38,6 +38,11 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.WITHERITE_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.WITHERITE_BOOTS));
 
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.HEAVY_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.HEAVY_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.HEAVY_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.HEAVY_BOOTS));
+
         itemModelGenerator.register(ModItems.TIDAL_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.TIDAL_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.TIDAL_AXE, Models.HANDHELD);
@@ -55,6 +60,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.WITHERITE_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.WITHERITE_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.WITHERITE_HOE, Models.HANDHELD);
+
 
 
     }

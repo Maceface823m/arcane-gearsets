@@ -11,6 +11,10 @@
     "arcane:witherite_helmet",
     "arcane:witherite_chestplate",
     "arcane:witherite_leggings",
-    "arcane:witherite_boots"
+    "arcane:witherite_boots",
+    "arcane:heavy_helmet",
+    "arcane:heavy_chestplate",
+    "arcane:heavy_leggings",
+    "arcane:heavy_boots"
   ]
 }

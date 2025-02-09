@@ -30,10 +30,15 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.WITHERITE_HELMET)
                 .add(ModItems.WITHERITE_CHESTPLATE)
                 .add(ModItems.WITHERITE_LEGGINGS)
-                .add(ModItems.WITHERITE_BOOTS);
+                .add(ModItems.WITHERITE_BOOTS)
+                .add(ModItems.HEAVY_HELMET)
+                .add(ModItems.HEAVY_CHESTPLATE)
+                .add(ModItems.HEAVY_LEGGINGS)
+                .add(ModItems.HEAVY_BOOTS);
 
         getOrCreateTagBuilder(ItemTags.TRIM_MATERIALS)
-                .add(Items.HEART_OF_THE_SEA);
+                .add(Items.HEART_OF_THE_SEA)
+                .add(Items.HEAVY_CORE);
 
         getOrCreateTagBuilder(ItemTags.SWORDS)
                 .add(ModItems.TIDAL_SWORD)
@@ -59,19 +64,23 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ItemTags.HEAD_ARMOR_ENCHANTABLE)
                 .add(ModItems.TIDAL_HELMET)
                 .add(ModItems.WAVE_BREAKER_HELMET)
-                .add(ModItems.WITHERITE_HELMET);
+                .add(ModItems.WITHERITE_HELMET)
+                .add(ModItems.HEAVY_HELMET);
         getOrCreateTagBuilder(ItemTags.CHEST_ARMOR_ENCHANTABLE)
                 .add(ModItems.TIDAL_CHESTPLATE)
                 .add(ModItems.WAVE_BREAKER_CHESTPLATE)
-                .add(ModItems.WITHERITE_CHESTPLATE);
+                .add(ModItems.WITHERITE_CHESTPLATE)
+                .add(ModItems.HEAVY_CHESTPLATE);
         getOrCreateTagBuilder(ItemTags.LEG_ARMOR_ENCHANTABLE)
                 .add(ModItems.TIDAL_LEGGINGS)
                 .add(ModItems.WAVE_BREAKER_LEGGINGS)
-                .add(ModItems.WITHERITE_LEGGINGS);
+                .add(ModItems.WITHERITE_LEGGINGS)
+                .add(ModItems.HEAVY_LEGGINGS);
         getOrCreateTagBuilder(ItemTags.FOOT_ARMOR_ENCHANTABLE)
                 .add(ModItems.TIDAL_BOOTS)
                 .add(ModItems.WAVE_BREAKER_BOOTS)
-                .add(ModItems.WITHERITE_BOOTS);
+                .add(ModItems.WITHERITE_BOOTS)
+                .add(ModItems.HEAVY_BOOTS);
 
     }
 }
