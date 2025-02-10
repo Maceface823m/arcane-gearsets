@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:heavy_core"
+  },
+  "base": {
+    "item": "minecraft:diamond_hoe"
+  },
+  "result": {
+    "count": 1,
+    "id": "arcane:heavy_hoe"
+  },
+  "template": {
+      "item": "arcane:trial_upgrade_template"
+    }
+
+}

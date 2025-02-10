@@ -25,8 +25,9 @@ public class ModArmorItem extends ArmorItem {
                             List.of(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 10, 0, false, false)))
 
                     .put(ModArmorMaterials.HEAVY_ARMOR_MATERIAL,
-                            List.of(new StatusEffectInstance(StatusEffects.RESISTANCE, 10, 0, false, false),
-                                    new StatusEffectInstance(StatusEffects.SLOWNESS, 10, 0, false, false))).build();
+                            List.of(new StatusEffectInstance(StatusEffects.RESISTANCE, 10, 1, false, false),
+                                    new StatusEffectInstance(StatusEffects.SLOWNESS, 10, 1, false, false),
+                                    new StatusEffectInstance(StatusEffects.STRENGTH, 10, 1, false, false))).build();
 
     public ModArmorItem(RegistryEntry<ArmorMaterial> material, Type type, Settings settings) {
         super(material, type, settings);

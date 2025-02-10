@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:conduit"
+  },
+  "base": {
+    "item": "arcane:tidal_sword"
+  },
+  "result": {
+    "count": 1,
+    "id": "arcane:wave_breaker_sword"
+  },
+  "template": {
+      "item": "arcane:aquatic_upgrade_template"
+    }
+
+}

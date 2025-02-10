@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:nether_star"
+  },
+  "base": {
+    "item": "minecraft:netherite_pickaxe"
+  },
+  "result": {
+    "count": 1,
+    "id": "arcane:witherite_pickaxe"
+  },
+  "template": {
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    }
+
+}

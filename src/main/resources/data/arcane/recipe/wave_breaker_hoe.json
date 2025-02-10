@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:conduit"
+  },
+  "base": {
+    "item": "arcane:tidal_hoe"
+  },
+  "result": {
+    "count": 1,
+    "id": "arcane:wave_breaker_hoe"
+  },
+  "template": {
+      "item": "arcane:aquatic_upgrade_template"
+    }
+
+}

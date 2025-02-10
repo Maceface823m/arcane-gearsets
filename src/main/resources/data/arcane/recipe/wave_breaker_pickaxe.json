@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:conduit"
+  },
+  "base": {
+    "item": "arcane:tidal_pickaxe"
+  },
+  "result": {
+    "count": 1,
+    "id": "arcane:wave_breaker_pickaxe"
+  },
+  "template": {
+      "item": "arcane:aquatic_upgrade_template"
+    }
+
+}
