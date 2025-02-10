@@ -45,5 +45,12 @@
   "item.arcane.heavy_helmet": "Heavy Helmet",
   "item.arcane.heavy_chestplate": "Heavy Chestplate",
   "item.arcane.heavy_leggings": "Heavy Leggings",
-  "item.arcane.heavy_boots": "Heavy Boots"
+  "item.arcane.heavy_boots": "Heavy Boots",
+  "item.arcane.heavy_sword": "Heavy Sword",
+  "item.arcane.heavy_pickaxe": "Heavy Pickaxe",
+  "item.arcane.heavy_axe": "Heavy Axe",
+  "item.arcane.heavy_shovel": "Heavy Shovel",
+  "item.arcane.heavy_hoe": "Heavy Hoe",
+
+  "item.arcanegearsets.arcane_gearsets_items": "Arcane Gearsets Items"
 }

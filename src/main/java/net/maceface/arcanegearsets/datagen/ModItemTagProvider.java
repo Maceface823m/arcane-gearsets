@@ -43,23 +43,28 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ItemTags.SWORDS)
                 .add(ModItems.TIDAL_SWORD)
                 .add(ModItems.WAVE_BREAKER_SWORD)
-                .add(ModItems.WITHERITE_SWORD);
+                .add(ModItems.WITHERITE_SWORD)
+                .add(ModItems.HEAVY_SWORD);
         getOrCreateTagBuilder(ItemTags.PICKAXES)
                 .add(ModItems.TIDAL_PICKAXE)
                 .add(ModItems.WAVE_BREAKER_PICKAXE)
-                .add(ModItems.WITHERITE_PICKAXE);
+                .add(ModItems.WITHERITE_PICKAXE)
+                .add(ModItems.HEAVY_PICKAXE);
         getOrCreateTagBuilder(ItemTags.AXES)
                 .add(ModItems.TIDAL_AXE)
                 .add(ModItems.WAVE_BREAKER_AXE)
-                .add(ModItems.WITHERITE_AXE);
+                .add(ModItems.WITHERITE_AXE)
+                .add(ModItems.HEAVY_AXE);
         getOrCreateTagBuilder(ItemTags.SHOVELS)
                 .add(ModItems.TIDAL_SHOVEL)
                 .add(ModItems.WAVE_BREAKER_SHOVEL)
-                .add(ModItems.WITHERITE_SHOVEL);
+                .add(ModItems.WITHERITE_SHOVEL)
+                .add(ModItems.HEAVY_SHOVEL);
         getOrCreateTagBuilder(ItemTags.HOES)
                 .add(ModItems.TIDAL_HOE)
                 .add(ModItems.WAVE_BREAKER_HOE)
-                .add(ModItems.WITHERITE_HOE);
+                .add(ModItems.WITHERITE_HOE)
+                .add(ModItems.HEAVY_HOE);
 
         getOrCreateTagBuilder(ItemTags.HEAD_ARMOR_ENCHANTABLE)
                 .add(ModItems.TIDAL_HELMET)

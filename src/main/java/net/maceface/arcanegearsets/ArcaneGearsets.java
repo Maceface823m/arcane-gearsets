@@ -2,6 +2,7 @@ package net.maceface.arcanegearsets;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.maceface.arcanegearsets.item.ModItemGroups;
 import net.maceface.arcanegearsets.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,6 +15,7 @@ public class ArcaneGearsets implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 	}
 }

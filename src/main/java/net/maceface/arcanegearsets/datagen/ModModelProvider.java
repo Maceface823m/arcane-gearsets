@@ -61,6 +61,12 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.WITHERITE_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.WITHERITE_HOE, Models.HANDHELD);
 
+        itemModelGenerator.register(ModItems.HEAVY_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.HEAVY_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.HEAVY_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.HEAVY_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.HEAVY_HOE, Models.HANDHELD);
+
 
 
     }

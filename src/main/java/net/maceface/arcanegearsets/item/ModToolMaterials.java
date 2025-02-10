@@ -17,7 +17,8 @@ public enum ModToolMaterials implements ToolMaterial {
     TIDAL(ModTags.Blocks.INCORRECT_FOR_TIDAL_TOOL, 2031, 9F, 4.0F, 15, () -> Ingredient.ofItems(Items.PRISMARINE_SHARD)),
 
     WAVE_BREAKER(ModTags.Blocks.INCORRECT_FOR_WITHERITE_TOOL, 2031, 9F, 4.0F, 15, () -> Ingredient.ofItems(Items.NAUTILUS_SHELL)),
-    WITHERITE(ModTags.Blocks.INCORRECT_FOR_WITHERITE_TOOL, 2031, 9F, 4.0F, 15, () -> Ingredient.ofItems(Items.WITHER_SKELETON_SKULL));
+    WITHERITE(ModTags.Blocks.INCORRECT_FOR_WITHERITE_TOOL, 2031, 9F, 4.0F, 15, () -> Ingredient.ofItems(Items.WITHER_SKELETON_SKULL)),
+    HEAVY(ModTags.Blocks.INCORRECT_FOR_HEAVY_TOOL, 2031, 9F, 4.0F, 15, () -> Ingredient.ofItems(Items.BREEZE_ROD));
 
 
     private final TagKey<Block> inverseTag;

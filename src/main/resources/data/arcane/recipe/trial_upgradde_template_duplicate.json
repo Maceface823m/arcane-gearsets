@@ -7,13 +7,13 @@
   ],
   "key": {
     "B": {
-      "tag": "minecraft:copper_block"
+      "item": "minecraft:chiseled_tuff"
     },
     "T": {
-      "tag": "arcane:trial_upgrade_template"
+      "item": "arcane:trial_upgrade_template"
     },
     "D": {
-      "tag": "minecraft:diamond"
+      "item": "minecraft:diamond"
     }
   },
   "result": {

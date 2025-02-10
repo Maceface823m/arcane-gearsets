@@ -1,24 +1,26 @@
 {
   "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "item": "minecraft:prismarine"
+    },
+    "T": {
+      "item": "arcane:aquatic_upgrade_template"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
   "pattern": [
     "DTD",
     "DBD",
     "DDD"
   ],
-  "key": {
-    "B": {
-      "tag": "minecraft:prismarine"
-    },
-    "T": {
-      "tag": "arcane:aquatic_upgrade_template"
-    },
-    "D": {
-      "tag": "minecraft:diamond"
-    }
-  },
+
   "result": {
-    "count": 2,
-    "id": "arcane:aquatic_upgrade_template"
+    "id": "arcane:aquatic_upgrade_template",
+    "count": 2
+
   }
 
 }

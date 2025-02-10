@@ -3,6 +3,7 @@ package net.maceface.arcanegearsets.item;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.maceface.arcanegearsets.ArcaneGearsets;
 import net.maceface.arcanegearsets.item.custom.ModArmorItem;
+import net.maceface.arcanegearsets.item.custom.ModHeavyToolItem;
 import net.maceface.arcanegearsets.item.custom.ModWitheringToolItem;
 import net.maceface.arcanegearsets.item.misc.ArcaneTemplateItem;
 import net.minecraft.item.*;
@@ -156,6 +157,29 @@ public class ModItems {
 
 
 
+    public static final Item HEAVY_SWORD = registerItem("heavy_sword",
+            new ModHeavyToolItem(ModToolMaterials.HEAVY, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.HEAVY, 4, -1.4f))));
+
+    public static final Item HEAVY_PICKAXE = registerItem("heavy_pickaxe",
+            new ModHeavyToolItem(ModToolMaterials.HEAVY, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.HEAVY, 2, -1.8f))));
+
+    public static final Item HEAVY_AXE = registerItem("heavy_axe",
+            new ModHeavyToolItem(ModToolMaterials.HEAVY, new Item.Settings()
+                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.HEAVY, 6f, -2f))));
+
+    public static final Item HEAVY_SHOVEL = registerItem("heavy_shovel",
+            new ModHeavyToolItem(ModToolMaterials.HEAVY, new Item.Settings()
+                    .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.HEAVY, 2.5f, -2f))));
+
+    public static final Item HEAVY_HOE = registerItem("heavy_hoe",
+            new ModHeavyToolItem(ModToolMaterials.HEAVY, new Item.Settings()
+                    .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.HEAVY, -3f, 1))));
+
+
+
+
 
 
 
@@ -177,9 +201,11 @@ public class ModItems {
             fabricItemGroupEntries.add(TIDAL_SWORD);
             fabricItemGroupEntries.add(WAVE_BREAKER_SWORD);
             fabricItemGroupEntries.add(WITHERITE_SWORD);
+            fabricItemGroupEntries.add(HEAVY_SWORD);
             fabricItemGroupEntries.add(TIDAL_AXE);
             fabricItemGroupEntries.add(WAVE_BREAKER_AXE);
             fabricItemGroupEntries.add(WITHERITE_AXE);
+            fabricItemGroupEntries.add(HEAVY_AXE);
 
             fabricItemGroupEntries.add(TIDAL_HELMET);
             fabricItemGroupEntries.add(TIDAL_CHESTPLATE);
@@ -220,6 +246,11 @@ public class ModItems {
             fabricItemGroupEntries.add(WITHERITE_PICKAXE);
             fabricItemGroupEntries.add(WITHERITE_AXE);
             fabricItemGroupEntries.add(WITHERITE_HOE);
+
+            fabricItemGroupEntries.add(HEAVY_SHOVEL);
+            fabricItemGroupEntries.add(HEAVY_PICKAXE);
+            fabricItemGroupEntries.add(HEAVY_AXE);
+            fabricItemGroupEntries.add(HEAVY_HOE);
 
         });
 
