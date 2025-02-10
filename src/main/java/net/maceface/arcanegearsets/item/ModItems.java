@@ -2,9 +2,7 @@ package net.maceface.arcanegearsets.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.maceface.arcanegearsets.ArcaneGearsets;
-import net.maceface.arcanegearsets.item.custom.ModArmorItem;
-import net.maceface.arcanegearsets.item.custom.ModHeavyToolItem;
-import net.maceface.arcanegearsets.item.custom.ModWitheringToolItem;
+import net.maceface.arcanegearsets.item.custom.*;
 import net.maceface.arcanegearsets.item.misc.ArcaneTemplateItem;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
@@ -135,7 +133,7 @@ public class ModItems {
 
 
     public static final Item WITHERITE_SWORD = registerItem("witherite_sword",
-            new ModWitheringToolItem(ModToolMaterials.WITHERITE, new Item.Settings()
+            new ModWitheringSwordItem(ModToolMaterials.WITHERITE, new Item.Settings()
                     .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.WITHERITE, 4, -1.4f))));
 
     public static final Item WITHERITE_PICKAXE = registerItem("witherite_pickaxe",
@@ -158,7 +156,7 @@ public class ModItems {
 
 
     public static final Item HEAVY_SWORD = registerItem("heavy_sword",
-            new ModHeavyToolItem(ModToolMaterials.HEAVY, new Item.Settings()
+            new ModHeavySwordItem(ModToolMaterials.HEAVY, new Item.Settings()
                     .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.HEAVY, 4, -1.4f))));
 
     public static final Item HEAVY_PICKAXE = registerItem("heavy_pickaxe",
