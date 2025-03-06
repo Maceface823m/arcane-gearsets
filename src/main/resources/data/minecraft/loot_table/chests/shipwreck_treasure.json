@@ -65,7 +65,7 @@
         {
           "type": "minecraft:item",
           "name": "arcane:aquatic_upgrade_template",
-          "weight": 5
+          "weight": 7
         }
 
       ],

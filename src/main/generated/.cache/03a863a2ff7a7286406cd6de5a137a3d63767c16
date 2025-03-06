@@ -1,12 +1,12 @@
-// 1.21.1	2025-02-09T19:57:03.267005	Arcane Gearsets/Tags for minecraft:item
+// 1.21.1	2025-03-05T22:34:28.4807834	Arcane Gearsets/Tags for minecraft:item
 9a02f383ef160eb44d74334db5ec6fc5849f3ebe data\minecraft\tags\item\swords.json
 bfc9cd5f2ba2f80b7b7eda071d6e26b921877378 data\minecraft\tags\item\enchantable\head_armor.json
 24c9f0499e4b975f0ca47d8c3c914158205c7ed0 data\minecraft\tags\item\trimmable_armor.json
 74f17e042c11d4b616339dfb7b563cf20e892bff data\minecraft\tags\item\axes.json
 538c9ee157c6c9a9b88d2a3400c9c7685d39c003 data\minecraft\tags\item\trim_materials.json
 6c834675a58e3eefa8352dd70f2ab83b6d89e40d data\minecraft\tags\item\pickaxes.json
-6b1c3384015f4c59ec36b77bf022b8864f7c88ec data\minecraft\tags\item\hoes.json
 14cbdc144265d6a06693c52bdfa0d507a04ef0fa data\minecraft\tags\item\enchantable\leg_armor.json
+6b1c3384015f4c59ec36b77bf022b8864f7c88ec data\minecraft\tags\item\hoes.json
 8c7681a153d2126934a0bf6eb4c4f916fdd9cce9 data\minecraft\tags\item\shovels.json
 b383646b2655a4165f7658eed90a15b82bd2099b data\minecraft\tags\item\enchantable\foot_armor.json
 5bca153b7b864e9841cd177a473503bbaadc9384 data\minecraft\tags\item\enchantable\chest_armor.json

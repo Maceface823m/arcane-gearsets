@@ -1,4 +1,4 @@
-// 1.21.1	2025-02-09T19:57:03.268009	Arcane Gearsets/Model Definitions
+// 1.21.1	2025-03-05T22:34:28.4817849	Arcane Gearsets/Model Definitions
 330ab5157e698c71f43fdf04cec03925b690e442 assets\arcane\models\item\tidal_shovel.json
 800186f5b728781641e9c94e5ace9b8fabbc5f5c assets\arcane\models\item\heavy_leggings_netherite_trim.json
 5d80a6fee0b6c10800b83df1e70765def00e246b assets\arcane\models\item\trial_upgrade_template.json
@@ -50,8 +50,8 @@ e79df520797d99fedbf24d40b1a38eb7dd562519 assets\arcane\models\item\wave_breaker_
 b5acb4963bab8ad0941bb3203a980c1b5a9d7006 assets\arcane\models\item\heavy_helmet_lapis_trim.json
 d57dd638bf87fde390889337f6f6e54070834f77 assets\arcane\models\item\wave_breaker_helmet_netherite_trim.json
 b96ca5c7d167352606dd2d11c9e3e25c76d160c7 assets\arcane\models\item\tidal_axe.json
-a7a4601d96fe95d9473eb9e27d9611c302fb983e assets\arcane\models\item\witherite_boots.json
 a85f4cdf229700d9d3b85ea123b843c05e45a672 assets\arcane\models\item\witherite_boots_gold_trim.json
+a7a4601d96fe95d9473eb9e27d9611c302fb983e assets\arcane\models\item\witherite_boots.json
 e3b1740c0292ace24d12a2803850d6c7618e5003 assets\arcane\models\item\tidal_sword.json
 d2b83985c8e772b3db69deaf09b53a05faccab92 assets\arcane\models\item\heavy_chestplate_redstone_trim.json
 eef3c7183e11d3f170ef95e2dd892d64c16e66e4 assets\arcane\models\item\tidal_helmet_emerald_trim.json
