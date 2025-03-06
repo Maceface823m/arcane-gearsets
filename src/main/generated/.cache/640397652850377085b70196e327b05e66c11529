@@ -1,4 +1,4 @@
-// 1.21.1	2025-03-05T22:34:28.4817849	Arcane Gearsets/Model Definitions
+// 1.21.1	2025-03-05T22:39:03.5442851	Arcane Gearsets/Model Definitions
 330ab5157e698c71f43fdf04cec03925b690e442 assets\arcane\models\item\tidal_shovel.json
 800186f5b728781641e9c94e5ace9b8fabbc5f5c assets\arcane\models\item\heavy_leggings_netherite_trim.json
 5d80a6fee0b6c10800b83df1e70765def00e246b assets\arcane\models\item\trial_upgrade_template.json
@@ -59,8 +59,8 @@ fe55dbd9710cd3daf8a886de17dd48a53799c080 assets\arcane\models\item\witherite_boo
 5b32610c0035b5d42c4f73c32a9c503dd03e9e30 assets\arcane\models\item\wave_breaker_shovel.json
 ee0ba420b21a944d2805aab309002c485be55657 assets\arcane\models\item\wave_breaker_chestplate_gold_trim.json
 00f7e1fbb978c4765d6fd0202f33ab58a5f47b52 assets\arcane\models\item\witherite_chestplate_iron_trim.json
-109c6beab2632f3470f9d4b9681082cb7884df3b assets\arcane\models\item\wave_breaker_axe.json
 45918b4984ec50a053aaa5d9db17acdb9e7c8314 assets\arcane\models\item\wave_breaker_chestplate_copper_trim.json
+109c6beab2632f3470f9d4b9681082cb7884df3b assets\arcane\models\item\wave_breaker_axe.json
 696c133ef77021d02d499a8fc2079bb91f2e123d assets\arcane\models\item\tidal_helmet_quartz_trim.json
 412942e436a7793bcb0e920408d6b5bd6b09f71e assets\arcane\models\item\wave_breaker_helmet_copper_trim.json
 a05d1fe19db0791379d14906e84733898746becd assets\arcane\models\item\witherite_chestplate_diamond_trim.json

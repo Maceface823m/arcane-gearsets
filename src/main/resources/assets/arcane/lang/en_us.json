@@ -52,11 +52,14 @@
   "item.arcane.heavy_shovel": "Heavy Shovel",
   "item.arcane.heavy_hoe": "Heavy Hoe",
 
-  "item.arcanegearsets.arcane_gearsets_items": "Arcane Gearsets Items",
+  "item.arcane.arcane_gearsets_items": "Arcane Gearsets Items",
 
 
-  "effect.arcanegearsets.wither_resistance": "Wither Resistance",
+  "effect.arcane.wither_resistance": "Wither Resistance",
   "item.minecraft.potion.effect.wither_resistance_potion": "Potion of Wither Resistance",
   "item.minecraft.splash_potion.effect.wither_resistance_potion": "Splash Potion of Wither Resistance",
-  "item.minecraft.lingering_potion.effect.wither_resistance_potion": "Lingering Potion of Wither Resistance"
+  "item.minecraft.lingering_potion.effect.wither_resistance_potion": "Lingering Potion of Wither Resistance",
+  "item.minecraft.potion.effect.long_wither_resistance_potion": "Potion of Wither Resistance",
+  "item.minecraft.splash_potion.effect.long_wither_resistance_potion": "Splash Potion of Wither Resistance",
+  "item.minecraft.lingering_potion.effect.long_wither_resistance_potion": "Lingering Potion of Wither Resistance"
 }
