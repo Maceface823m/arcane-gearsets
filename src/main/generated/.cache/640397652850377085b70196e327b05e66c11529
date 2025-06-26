@@ -1,4 +1,4 @@
-// 1.21.1	2025-03-05T22:39:03.5442851	Arcane Gearsets/Model Definitions
+// 1.21.1	2025-06-26T01:29:31.4543665	Arcane Gearsets/Model Definitions
 330ab5157e698c71f43fdf04cec03925b690e442 assets\arcane\models\item\tidal_shovel.json
 800186f5b728781641e9c94e5ace9b8fabbc5f5c assets\arcane\models\item\heavy_leggings_netherite_trim.json
 5d80a6fee0b6c10800b83df1e70765def00e246b assets\arcane\models\item\trial_upgrade_template.json
@@ -71,6 +71,7 @@ fc4768b3a8d74a160fa2509e3e62e4246521c170 assets\arcane\models\item\heavy_boots_d
 3b49932067b5969c6380e07774a686ea02add9f7 assets\arcane\models\item\tidal_leggings_iron_trim.json
 50e3d377abaa47fde9ae3a72f55ac886b7a80489 assets\arcane\models\item\tidal_helmet_amethyst_trim.json
 fa4162d336718a49c4fbfdafcbabbdc231ea489c assets\arcane\models\item\tidal_chestplate_copper_trim.json
+3e5d7a8a19e8bc489ddc196a9e6b6945a453c3b8 assets\arcane\models\item\dragon_armor_trim_smithing_template.json
 6db82e448cc6352afabf74619e48e8fb82bc9001 assets\arcane\models\item\heavy_boots_quartz_trim.json
 eff183cabe96ee85aebe3aea233ca5c551fa0e88 assets\arcane\models\item\wave_breaker_leggings_quartz_trim.json
 c75de651a1241cd65c5a44c9eb410982d5b4f4c4 assets\arcane\models\item\heavy_axe.json
@@ -99,8 +100,8 @@ b7dedd246b6ac9bccfcfef9abf41e292a193053e assets\arcane\models\item\wave_breaker_
 534ac4e960f8cefaeaef1f741060bf76a94047f8 assets\arcane\models\item\tidal_leggings_netherite_trim.json
 e9aaa8cf0424c90c8df99a0c361124ea539a3732 assets\arcane\models\item\tidal_leggings_lapis_trim.json
 2e05b340ab107ab56cb2b9d445ebc75b62f8744b assets\arcane\models\item\witherite_chestplate.json
-58eb602270b23b950ca086283a64664084b127b5 assets\arcane\models\item\tidal_boots_redstone_trim.json
 6efe39758856f39a26dcef322d4bb13b946dc7d8 assets\arcane\models\item\tidal_helmet_iron_trim.json
+58eb602270b23b950ca086283a64664084b127b5 assets\arcane\models\item\tidal_boots_redstone_trim.json
 f8017c4a3f701991b7f6f23f391515b91251a2a0 assets\arcane\models\item\witherite_boots_amethyst_trim.json
 5f63cc241e681fd54b00cf41b70472424d12d7d3 assets\arcane\models\item\witherite_boots_copper_trim.json
 086534aeb9950a0398bc784e76820395088beab0 assets\arcane\models\item\wave_breaker_leggings_copper_trim.json

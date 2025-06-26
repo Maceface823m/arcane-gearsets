@@ -86,6 +86,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.WAVE_BREAKER_BOOTS)
                 .add(ModItems.WITHERITE_BOOTS)
                 .add(ModItems.HEAVY_BOOTS);
-
+        getOrCreateTagBuilder(ItemTags.TRIM_TEMPLATES)
+                .add(ModItems.DRAGON_SMITHING_TEMPLATE);
     }
+
 }

@@ -51,11 +51,11 @@ public class ModArmorMaterials {
 
     public static final RegistryEntry<ArmorMaterial> HEAVY_ARMOR_MATERIAL = registerArmorMaterial("heavy",
             () -> new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), typeIntegerEnumMap -> {
-                typeIntegerEnumMap.put(ArmorItem.Type.BOOTS, 3);
-                typeIntegerEnumMap.put(ArmorItem.Type.LEGGINGS, 6);
-                typeIntegerEnumMap.put(ArmorItem.Type.CHESTPLATE, 8);
-                typeIntegerEnumMap.put(ArmorItem.Type.HELMET, 3);
-                typeIntegerEnumMap.put(ArmorItem.Type.BODY, 11);
+                typeIntegerEnumMap.put(ArmorItem.Type.BOOTS, 4);
+                typeIntegerEnumMap.put(ArmorItem.Type.LEGGINGS, 7);
+                typeIntegerEnumMap.put(ArmorItem.Type.CHESTPLATE, 9);
+                typeIntegerEnumMap.put(ArmorItem.Type.HELMET, 4);
+                typeIntegerEnumMap.put(ArmorItem.Type.BODY, 12);
             }), 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, () -> Ingredient.ofItems(Items.BREEZE_ROD),
                     List.of(new ArmorMaterial.Layer(Identifier.of(ArcaneGearsets.MOD_ID, "heavy"))), 3.0f, 1f));
 

@@ -7,6 +7,8 @@ import net.maceface.arcanegearsets.item.misc.ArcaneTemplateItem;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.resource.featuretoggle.FeatureFlag;
+import net.minecraft.resource.featuretoggle.FeatureFlags;
 import net.minecraft.util.Identifier;
 
 
@@ -175,7 +177,8 @@ public class ModItems {
             new ModHeavyToolItem(ModToolMaterials.HEAVY, new Item.Settings()
                     .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.HEAVY, -3f, 1))));
 
-
+    public static final Item DRAGON_SMITHING_TEMPLATE = registerItem("dragon_armor_trim_smithing_template",
+            SmithingTemplateItem.of(Identifier.of(ArcaneGearsets.MOD_ID, "dragon"), FeatureFlags.VANILLA));
 
 
 
@@ -193,6 +196,7 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(AQUATIC_UPGRADE_TEMPLATE);
             fabricItemGroupEntries.add(TRIAL_UPGRADE_TEMPLATE);
+            fabricItemGroupEntries.add(DRAGON_SMITHING_TEMPLATE);
         });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(fabricItemGroupEntries -> {

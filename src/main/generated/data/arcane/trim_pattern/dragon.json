@@ -1,0 +1,8 @@
+{
+  "asset_id": "arcane:dragon",
+  "decal": false,
+  "description": {
+    "translate": "trim_pattern.arcane.dragon"
+  },
+  "template_item": "arcane:dragon_armor_trim_smithing_template"
+}

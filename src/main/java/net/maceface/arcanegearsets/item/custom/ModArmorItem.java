@@ -1,6 +1,7 @@
 package net.maceface.arcanegearsets.item.custom;
 
 import com.google.common.collect.ImmutableMap;
+import net.maceface.arcanegearsets.effect.ModEffects;
 import net.maceface.arcanegearsets.item.ModArmorMaterials;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.effect.StatusEffectInstance;
@@ -22,7 +23,8 @@ public class ModArmorItem extends ArmorItem {
                             List.of(new StatusEffectInstance(StatusEffects.CONDUIT_POWER, 10, 0, false, false),
                                     new StatusEffectInstance(StatusEffects.DOLPHINS_GRACE, 10, 0, false, false)))
                     .put(ModArmorMaterials.WITHERITE_ARMOR_MATERIAL,
-                            List.of(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 10, 0, false, false)))
+                            List.of(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 10, 0, false, false),
+                                    new StatusEffectInstance(ModEffects.WITHER_RESISTANCE, 10, 0, false, false)))
 
                     .put(ModArmorMaterials.HEAVY_ARMOR_MATERIAL,
                             List.of(new StatusEffectInstance(StatusEffects.RESISTANCE, 10, 1, false, false),

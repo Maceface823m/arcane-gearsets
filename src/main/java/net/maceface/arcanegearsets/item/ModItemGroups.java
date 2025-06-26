@@ -63,6 +63,8 @@ public class ModItemGroups {
                         entries.add(ModItems.HEAVY_PICKAXE);
                         entries.add(ModItems.HEAVY_AXE);
                         entries.add(ModItems.HEAVY_HOE);
+
+                        entries.add(ModItems.DRAGON_SMITHING_TEMPLATE);
                     }).build());
 
 

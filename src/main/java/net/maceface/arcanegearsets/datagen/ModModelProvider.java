@@ -67,6 +67,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.HEAVY_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.HEAVY_HOE, Models.HANDHELD);
 
+        itemModelGenerator.register(ModItems.DRAGON_SMITHING_TEMPLATE, Models.GENERATED);
 
 
     }
